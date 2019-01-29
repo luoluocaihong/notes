@@ -72,9 +72,9 @@ server-03  10.45.82.76:8301   alive   server  1.4.2  2         dc1  <all>
 至此,包含三个节点的consul cluster搭建好了  
 
 我们可以通过web UI查看集群信息  
-注意,启动consul server的时候带参数```-ui```即可启动consul自带的web管理界面,默认端口号8500  
-http://10.45.82.76:8500   
-![consul web ui](https://github.com/luoluocaihong/notes/blob/master/springcloud/pic/consul-webUI.png)   
+注意,启动consul server的时候带参数```-ui```即可启动consul自带的web管理界面,默认端口号8500    
+http://10.45.82.76:8500     
+![consul web ui](https://github.com/luoluocaihong/notes/blob/master/springcloud/pic/consulWebUI.png)     
  
 注意:集群部署的时候可以看下启动日志,能比较清楚的看到Leader选举的流程等    
 
